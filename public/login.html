@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login - BloodConnect</title><link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <section class="panel narrow"><h2>Log in</h2>
+            <div class="tabs"><button type="button" class="active" data-mode="user">User</button><button type="button" data-mode="bank">Blood bank</button></div>
+            <form id="loginForm"><div class="field"><label for="email">Email</label><input id="email" type="email" required></div>
+            <div class="field"><label for="password">Password</label><input id="password" type="password" required></div>
+            <button type="submit">Log in</button></form><div id="msg" class="msg"></div>
+            <p>New here? <a href="register.html">Create an account</a></p>
+            <p><small>Demo user: user@demo.com / user123<br>Demo blood bank: city@bank.com / bank123</small></p></section>
+        </main>
+        <footer>
+            BloodConnect: Blood Bank Portal &middot; Manipal University Jaipur
+
+        </footer>
+        <script src="js/common.js"></script>
+        <script src="js/auth.js"></script>
+    </body>
+</html>

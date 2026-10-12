@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Dashboard - BloodConnect</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <h2>My Dashboard</h2>
+            <div id="msg" class="msg"></div>
+            <section class="panel"><h3>My profile</h3><p id="profile"></p>
+            <p id="donorNote">You are registered as a donor. Blood banks in your city can contact you.</p>
+            <button id="donorBtn">Register as donor</button></section>
+            <section class="panel"><h3>My blood requests</h3><div class="table-wrap"><table>
+            <thead><tr><th>ID</th><th>Blood bank</th><th>Group</th><th>Units</th><th>Status</th><th>Date</th></tr></thead>
+            <tbody id="reqBody"></tbody></table></div></section>
+        </main>
+        <footer>BloodConnect: Blood Bank Portal &middot; Manipal University Jaipur BCA project</footer>
+        <script src="js/common.js"></script><script src="js/user.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bank Panel - BloodConnect</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <h2 id="bankTitle">Bank Panel</h2>
+            <div class="stats"><div class="stat"><b id="statTotal">0</b>Total requests</div><div class="stat"><b id="statPending">0</b>Pending</div><div class="stat"><b id="statFulfilled">0</b>Fulfilled</div></div>
+            <section class="panel"><h3>Blood stock</h3><div class="stock-grid" id="stockGrid"></div><div id="stockMsg" class="msg"></div></section>
+            <section class="panel"><h3>Blood requests</h3><div id="reqMsg" class="msg"></div><div class="table-wrap"><table>
+            <thead><tr><th>ID</th><th>Requester</th><th>Group</th><th>Units</th><th>Status</th><th>Action</th></tr></thead><tbody id="reqBody"></tbody></table></div></section>
+            <section class="panel"><h3>Donors in your city</h3><div class="table-wrap"><table>
+            <thead><tr><th>Name</th><th>Group</th><th>Phone</th><th>Email</th></tr></thead><tbody id="donorBody"></tbody></table></div>
+            <h3 style="margin-top:1rem">Log a donation</h3><form class="row" id="donationForm">
+            <div class="field"><label for="donorSelect">Donor</label><select id="donorSelect"></select></div>
+            <div class="field"><label for="quantity">Units donated</label><input id="quantity" type="number" min="1" value="1"></div>
+            <button type="submit">Add to stock</button></form><div id="donationMsg" class="msg"></div>
+            <h3 style="margin-top:1rem">Donation history</h3><div class="table-wrap"><table>
+            <thead><tr><th>Donor</th><th>Group</th><th>Units</th><th>Date</th></tr></thead><tbody id="donationBody"></tbody></table></div></section>
+            <section class="panel"><h3>Bank profile</h3><p>Licence no: <b id="licenseNo"></b></p><form id="profileForm">
+            <div class="field"><label for="address">Address</label><input id="address"></div>
+            <div class="field"><label for="contactNumber">Contact number</label><input id="contactNumber"></div>
+            <button type="submit">Save profile</button></form><div id="profileMsg" class="msg"></div></section>
+        </main>
+        <footer>BloodConnect: Blood Bank Portal &middot; Manipal University Jaipur BCA project</footer>
+        <script src="js/common.js"></script><script src="js/admin.js"></script>
+    </body>
+    </html>

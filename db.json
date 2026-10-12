@@ -1,0 +1,226 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Demo User",
+      "email": "user@demo.com",
+      "password": "$2a$08$Kf8X8fK60jab/Zg8vqvpvOUUh2b.ITizXwFmhZHKf8MzRAvwUaKkC",
+      "phone": "9999999999",
+      "bloodGroup": "B+",
+      "city": "Jaipur",
+      "role": "Both"
+    }
+  ],
+  "banks": [
+    {
+      "id": 1,
+      "bankName": "City Blood Bank",
+      "address": "MI Road, Near Ajmeri Gate",
+      "city": "Jaipur",
+      "contactNumber": "0141-2222222",
+      "licenseNo": "RJ-BB-1001",
+      "email": "city@bank.com",
+      "password": "$2a$08$nseJ99H77Zrnizi2Lf9g2esGa.bv59ImJ7eKl2KZkncQ8FB/jk2Ny"
+    },
+    {
+      "id": 2,
+      "bankName": "Life Care Blood Centre",
+      "address": "Tonk Road, Jawahar Circle",
+      "city": "Jaipur",
+      "contactNumber": "0141-3333333",
+      "licenseNo": "RJ-BB-1002",
+      "email": "lifecare@bank.com",
+      "password": "$2a$08$AtTtQgoIDYOlVQJeacNRS.k75mB8WwGlutB4jQsVmjXj6onNxXlQS"
+    },
+    {
+      "id": 3,
+      "bankName": "Red Cross Blood Bank",
+      "address": "Station Road",
+      "city": "Jodhpur",
+      "contactNumber": "0291-4444444",
+      "licenseNo": "RJ-BB-2001",
+      "email": "redcross@bank.com",
+      "password": "$2a$08$inGda0s4rPC.8M7HCnAhQuN6ca7zaNqDfHXPswaNujX7uVQOwrbv6"
+    }
+  ],
+  "stock": [
+    {
+      "id": 1,
+      "bankId": 1,
+      "bloodGroup": "A+",
+      "unitsAvailable": 3,
+      "lastUpdated": "2026-10-11T15:05:20.003Z"
+    },
+    {
+      "id": 2,
+      "bankId": 1,
+      "bloodGroup": "A-",
+      "unitsAvailable": 5,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 3,
+      "bankId": 1,
+      "bloodGroup": "B+",
+      "unitsAvailable": 8,
+      "lastUpdated": "2026-10-11T15:06:42.405Z"
+    },
+    {
+      "id": 4,
+      "bankId": 1,
+      "bloodGroup": "B-",
+      "unitsAvailable": 0,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 5,
+      "bankId": 1,
+      "bloodGroup": "AB+",
+      "unitsAvailable": 2,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 6,
+      "bankId": 1,
+      "bloodGroup": "AB-",
+      "unitsAvailable": 4,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 7,
+      "bankId": 1,
+      "bloodGroup": "O+",
+      "unitsAvailable": 6,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 8,
+      "bankId": 1,
+      "bloodGroup": "O-",
+      "unitsAvailable": 8,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 9,
+      "bankId": 2,
+      "bloodGroup": "A+",
+      "unitsAvailable": 6,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 10,
+      "bankId": 2,
+      "bloodGroup": "A-",
+      "unitsAvailable": 8,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 11,
+      "bankId": 2,
+      "bloodGroup": "B+",
+      "unitsAvailable": 1,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 12,
+      "bankId": 2,
+      "bloodGroup": "B-",
+      "unitsAvailable": 3,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 13,
+      "bankId": 2,
+      "bloodGroup": "AB+",
+      "unitsAvailable": 5,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 14,
+      "bankId": 2,
+      "bloodGroup": "AB-",
+      "unitsAvailable": 7,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 15,
+      "bankId": 2,
+      "bloodGroup": "O+",
+      "unitsAvailable": 0,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 16,
+      "bankId": 2,
+      "bloodGroup": "O-",
+      "unitsAvailable": 2,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 17,
+      "bankId": 3,
+      "bloodGroup": "A+",
+      "unitsAvailable": 0,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 18,
+      "bankId": 3,
+      "bloodGroup": "A-",
+      "unitsAvailable": 2,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 19,
+      "bankId": 3,
+      "bloodGroup": "B+",
+      "unitsAvailable": 4,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 20,
+      "bankId": 3,
+      "bloodGroup": "B-",
+      "unitsAvailable": 6,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 21,
+      "bankId": 3,
+      "bloodGroup": "AB+",
+      "unitsAvailable": 8,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 22,
+      "bankId": 3,
+      "bloodGroup": "AB-",
+      "unitsAvailable": 1,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 23,
+      "bankId": 3,
+      "bloodGroup": "O+",
+      "unitsAvailable": 3,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    },
+    {
+      "id": 24,
+      "bankId": 3,
+      "bloodGroup": "O-",
+      "unitsAvailable": 5,
+      "lastUpdated": "2026-10-10T15:30:11.118Z"
+    }
+  ],
+  "requests": [],
+  "donations": [
+    {
+      "id": 1,
+      "donorId": 1,
+      "bankId": 1,
+      "donationDate": "2026-10-11T15:06:42.405Z",
+      "quantity": 1
+    }
+  ]
+}
